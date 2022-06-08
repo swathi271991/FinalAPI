@@ -86,6 +86,7 @@ public class AddPlaceAPI extends Utils{
 		
 		BookId = getJsonPath(resp, "ID");
 		 
+	        System.out.println(BookId);
 		 httpreq = given().log().all().spec(requestSpec()).queryParam("ID", BookId);
 		 user_calls_the_something_payload_using_something_http_request(resource,method);
 		 
