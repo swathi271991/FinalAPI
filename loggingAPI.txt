@@ -1,0 +1,294 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "New Automation Java",
+    "isbn": "ub2",
+    "aisle": 731,
+    "author": "Rajeev"
+}
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:21 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "ub2731"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=ub2731
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=ub2731
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+[
+    {
+        "book_name": "New Automation Java",
+        "isbn": "ub2",
+        "aisle": "731",
+        "author": "Rajeev"
+    }
+]
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "New Automation Java",
+    "isbn": "cb2",
+    "aisle": 211,
+    "author": "sundeer"
+}
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "cb2211"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=cb2211
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=cb2211
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+[
+    {
+        "book_name": "New Automation Java",
+        "isbn": "cb2",
+        "aisle": "211",
+        "author": "sundeer"
+    }
+]
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "New Automation Java",
+    "isbn": "wb2",
+    "aisle": 301,
+    "author": "ganji"
+}
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "wb2301"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=wb2301
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=wb2301
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+[
+    {
+        "book_name": "New Automation Java",
+        "isbn": "wb2",
+        "aisle": "301",
+        "author": "ganji"
+    }
+]
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "New Automation Java",
+    "isbn": "hb2",
+    "aisle": 401,
+    "author": "yummi"
+}
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "hb2401"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/Library/GetBook.php?ID=hb2401
+Proxy:			<none>
+Request params:	<none>
+Query params:	ID=hb2401
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+[
+    {
+        "book_name": "New Automation Java",
+        "isbn": "hb2",
+        "aisle": "401",
+        "author": "yummi"
+    }
+]
+Request method:	DELETE
+Request URI:	http://216.10.245.166/Library/DeleteBook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": "hb2401"
+}
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:06:23 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "book is successfully deleted"
+}
